@@ -9,12 +9,20 @@
 </head>
 <body>
     <form method="post">
+        <h1>REGISTRA TU ARTICULO</h1>
         <input type="text" name="Titulo" placeholder="Titulo del articulo">
         <input type="text" name="Autor" placeholder="Autor del articulo">
         <input type="text" name="Descripcion" placeholder="Descripción del articulo">
         <input type="url" name="Imagen" placeholder="Link de la imagen">
-        <input type="sumbit" name="register">
+        <input type="submit" name="registro">
     </form>
+    <br>
+    <hr>
+    <br>
+    <h2>Conoce todos los articulos registrados</h2>
+    <br>
+    <a href="Principal.php">Ir a ver los articulos</a>
+    <br>
     <?php
     include("registro.php");
     ?>
